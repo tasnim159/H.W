@@ -1,0 +1,64 @@
+header div img{
+    height: 20px;
+    width: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:aquamarine;
+}
+header div{
+display: flex;
+justify-content: center;
+gap: 30px;
+align-items: center;
+}
+main{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+background-color: bisque;
+margin-top: 50px;
+padding: 30px;
+
+}
+main div img{
+    height: 100px;
+    width: 310px;
+    margin-left: 20px;
+}
+main div button{
+    background-color:aquamarine;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+}
+footer{
+    background-color: rgb(215, 209, 209);
+    display: flex; 
+    justify-content: center;
+   margin-top: 50px;
+}
+footer div img{
+height: 30px;
+width: 40px;
+justify-content: space-between;
+gap: 20px;
+
+}
+footer div input{
+    background-color: rgb(121, 119, 119);
+    padding: 5px ;
+    margin: 10px;
+    border-radius: 3px;
+}
+footer div textarea{
+    background-color: gray;
+    margin: 10px;
+}
+footer div button{
+    background-color: aquamarine;
+    font-weight: 900;
+    
+}
